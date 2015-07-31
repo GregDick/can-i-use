@@ -1,8 +1,4 @@
-var http = require('http');
-var cheerio = require('cheerio');
+var port = process.env.PORT || 1337;
+require('./lib/server')(port);
 
-module.exports = function() {
-  http.createServer(function(req, res){
-
-  }).listen(1337)
-}
+console.log('Server running on http://localhost:' + port);
