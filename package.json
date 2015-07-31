@@ -1,0 +1,26 @@
+{
+  "name": "can-i-use",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregDick/can-i-use.git"
+  },
+  "author": "Greg Dick && Brian Macheski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregDick/can-i-use/issues"
+  },
+  "homepage": "https://github.com/GregDick/can-i-use#readme",
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
+  }
+}
